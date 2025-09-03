@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "rootDir": "./",
-    "outDir": "./dist",
-    "esModuleInterop": true,
+    "target": "es2016",                     
+    "module": "commonjs",                   
+    "rootDir": "./",                        
+    "outDir": "./dist",                     
+    "esModuleInterop": true,                 
     "forceConsistentCasingInFileNames": true,
-    "strict": false,
-    "noImplicitAny": false,
-    "skipLibCheck": true,
-    "noEmitOnError": false
+    "strict": false,                         /* Disable strict mode */
+    "noImplicitAny": false,                  /* Allow implicit any types */
+    "skipLibCheck": true,                    
+    "noEmitOnError": false                   /* Force output even if errors */
   },
   "ts-node": {
     "transpileOnly": true
