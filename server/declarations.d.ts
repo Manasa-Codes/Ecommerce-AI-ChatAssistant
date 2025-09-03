@@ -1,0 +1,9 @@
+declare module "@langchain/core/messages";
+declare module "@langchain/core/prompts";
+declare module "@langchain/core/tools";
+declare module "@langchain/core/output_parsers";
+declare module "@langchain/google-genai";
+declare module "@langchain/langgraph";
+declare module "@langchain/langgraph/prebuilt";
+declare module "@langchain/langgraph-checkpoint-mongodb";
+declare module "@langchain/mongodb";
