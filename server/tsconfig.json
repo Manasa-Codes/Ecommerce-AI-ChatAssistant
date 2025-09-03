@@ -1,22 +1,9 @@
-// {
-//     "compilerOptions": {
-//       "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-//       "module": "commonjs",                                /* Specify what module code is generated. */            /* Allow 'import x from y' when a module doesn't have a default export. */
-//       "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */                       /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
-//       "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-//       "strict": true,                                      /* Enable all strict type-checking options. */
-//       "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-//     },
-//     "ts-node":{
-//       "transpileOnly": true
-//     }
-//   }
-  {
+{
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "rootDir": "./src",            /* All your .ts backend files should be in src/ */
-    "outDir": "./dist",            /* Compiled .js files go here */
+    "rootDir": "./",
+    "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -25,6 +12,6 @@
   "ts-node": {
     "transpileOnly": true
   },
-  "include": ["src/**/*.ts"],       /* Only compile your backend source files */
+  "include": ["*.ts"],       // compile all .ts files in root
   "exclude": ["node_modules", "dist"]
 }
