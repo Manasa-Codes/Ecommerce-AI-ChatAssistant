@@ -1,18 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",                     
-    "module": "commonjs",                   
-    "rootDir": "./",                        
-    "outDir": "./dist",                     
-    "esModuleInterop": true,                 
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": false,                         /* Disable strict mode */
-    "noImplicitAny": false,                  /* Allow implicit any types */
-    "skipLibCheck": true,                    
-    "noEmitOnError": false                   /* Force output even if errors */
-  },
-  "ts-node": {
-    "transpileOnly": true
+    "strict": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "types": ["node"]   // 👈 add this
   },
   "include": ["*.ts", "declarations.d.ts"],
   "exclude": ["node_modules", "dist"]
